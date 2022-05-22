@@ -5,7 +5,7 @@ import math as m # math is a module that lets you do math, in this case it is us
 
 location = input('\nEnter your desired location: ') 
 g = geocoder.location(location) # holds the coordinates of the location entered
-apiKey = '4a65195e5d4fd3acd1d3f92a9b362b8a' # api key for openweathermap.org
+apiKey = 'your key here' # api key for openweathermap.org
 lat = g.lat # holds the lat of the location you entered
 lon = g.lng # holds the lon of the location you entered
 
